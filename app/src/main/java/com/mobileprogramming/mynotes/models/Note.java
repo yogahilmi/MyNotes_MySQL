@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit.models;
+package com.mobileprogramming.mynotes.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,23 +6,6 @@ import android.os.Parcelable;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Faisal Amir
- * FrogoBox Inc License
- * =========================================
- * NotesAppsRetrofit
- * Copyright (C) 18/02/2019.
- * All rights reserved
- * -----------------------------------------
- * Name     : Muhammad Faisal Amir
- * E-mail   : faisalamircs@gmail.com
- * Line     : bullbee117
- * Phone    : 081357108568
- * Majors   : D3 Teknik Informatika 2016
- * Campus   : Telkom University
- * -----------------------------------------
- * id.amirisback.frogobox
- */
 public class Note implements Parcelable {
 
     @Expose

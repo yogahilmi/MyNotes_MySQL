@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit.views.activities.mains;
+package com.mobileprogramming.mynotes.views.activities.mains;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,17 +8,15 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.frogobox.notesappsretrofit.R;
-import com.frogobox.notesappsretrofit.models.Note;
-import com.frogobox.notesappsretrofit.presenters.MainPresenter;
-import com.frogobox.notesappsretrofit.views.activities.editors.EditorActivity;
-import com.frogobox.notesappsretrofit.views.adapters.NotesRecyclerViewAdapter;
-import com.frogobox.notesappsretrofit.views.interfaces.ItemClickListener;
-import com.frogobox.notesappsretrofit.views.interfaces.MainView;
+import com.mobileprogramming.mynotes.R;
+import com.mobileprogramming.mynotes.models.Note;
+import com.mobileprogramming.mynotes.presenters.MainPresenter;
+import com.mobileprogramming.mynotes.views.activities.editors.EditorActivity;
+import com.mobileprogramming.mynotes.views.adapters.NotesRecyclerViewAdapter;
+import com.mobileprogramming.mynotes.views.interfaces.ItemClickListener;
+import com.mobileprogramming.mynotes.views.interfaces.MainView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;

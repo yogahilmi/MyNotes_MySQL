@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit.views.activities.editors;
+package com.mobileprogramming.mynotes.views.activities.editors;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,10 +10,10 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.frogobox.notesappsretrofit.R;
-import com.frogobox.notesappsretrofit.models.Note;
-import com.frogobox.notesappsretrofit.presenters.EditorPresenter;
-import com.frogobox.notesappsretrofit.views.interfaces.EditorView;
+import com.mobileprogramming.mynotes.R;
+import com.mobileprogramming.mynotes.models.Note;
+import com.mobileprogramming.mynotes.presenters.EditorPresenter;
+import com.mobileprogramming.mynotes.views.interfaces.EditorView;
 import com.thebluealliance.spectrum.SpectrumPalette;
 
 public class EditorActivity extends AppCompatActivity implements EditorView {
@@ -155,7 +155,8 @@ public class EditorActivity extends AppCompatActivity implements EditorView {
                 } else if (isi_notes.isEmpty()) {
                     editTextNotes.setError(getString(R.string.wajib_di_isi));
                 } else {
-                    presenter.updateNotes(id, isi_title, isi_notes, isi_color);
+//                    presenter.updateNotes(id, isi_title, isi_notes, isi_color);
+                    presenter.updateNotes(id, parcelTitle, parcelNotes, color);
                 }
                 break;
 

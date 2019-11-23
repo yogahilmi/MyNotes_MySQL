@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit;
+package com.mobileprogramming.mynotes;
 
 import org.junit.Test;
 

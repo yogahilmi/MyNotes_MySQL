@@ -1,9 +1,9 @@
-package com.frogobox.notesappsretrofit.presenters;
+package com.mobileprogramming.mynotes.presenters;
 
-import com.frogobox.notesappsretrofit.api.ApiClient;
-import com.frogobox.notesappsretrofit.api.ApiInterface;
-import com.frogobox.notesappsretrofit.models.Note;
-import com.frogobox.notesappsretrofit.views.interfaces.MainView;
+import com.mobileprogramming.mynotes.api.ApiClient;
+import com.mobileprogramming.mynotes.api.ApiInterface;
+import com.mobileprogramming.mynotes.models.Note;
+import com.mobileprogramming.mynotes.views.interfaces.MainView;
 
 import java.util.List;
 
@@ -11,23 +11,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * Created by Faisal Amir
- * FrogoBox Inc License
- * =========================================
- * NotesAppsRetrofit
- * Copyright (C) 19/02/2019.
- * All rights reserved
- * -----------------------------------------
- * Name     : Muhammad Faisal Amir
- * E-mail   : faisalamircs@gmail.com
- * Line     : bullbee117
- * Phone    : 081357108568
- * Majors   : D3 Teknik Informatika 2016
- * Campus   : Telkom University
- * -----------------------------------------
- * id.amirisback.frogobox
- */
 public class MainPresenter {
 
     private MainView view;

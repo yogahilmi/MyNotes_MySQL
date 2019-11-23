@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit;
+package com.mobileprogramming.mynotes;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;

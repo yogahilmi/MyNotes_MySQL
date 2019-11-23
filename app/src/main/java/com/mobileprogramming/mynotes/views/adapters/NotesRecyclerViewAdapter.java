@@ -1,4 +1,4 @@
-package com.frogobox.notesappsretrofit.views.adapters;
+package com.mobileprogramming.mynotes.views.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.frogobox.notesappsretrofit.R;
-import com.frogobox.notesappsretrofit.models.Note;
-import com.frogobox.notesappsretrofit.views.interfaces.ItemClickListener;
+import com.mobileprogramming.mynotes.R;
+import com.mobileprogramming.mynotes.models.Note;
+import com.mobileprogramming.mynotes.views.interfaces.ItemClickListener;
 
 import java.util.List;
 
@@ -16,23 +16,6 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * Created by Faisal Amir
- * FrogoBox Inc License
- * =========================================
- * NotesAppsRetrofit
- * Copyright (C) 19/02/2019.
- * All rights reserved
- * -----------------------------------------
- * Name     : Muhammad Faisal Amir
- * E-mail   : faisalamircs@gmail.com
- * Line     : bullbee117
- * Phone    : 081357108568
- * Majors   : D3 Teknik Informatika 2016
- * Campus   : Telkom University
- * -----------------------------------------
- * id.amirisback.frogobox
- */
 public class NotesRecyclerViewAdapter extends RecyclerView.Adapter<NotesRecyclerViewAdapter.RecyclerViewAdapter> {
 
     private Context context;
