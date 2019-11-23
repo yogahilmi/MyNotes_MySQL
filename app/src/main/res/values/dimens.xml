@@ -3,5 +3,7 @@
 <resources>
     <dimen name="dimen_big">16dp</dimen>
     <dimen name="dimen_medium">8dp</dimen>
-    <dimen name="text_size_big">18sp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
 </resources>
